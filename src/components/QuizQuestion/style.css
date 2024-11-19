@@ -1,0 +1,25 @@
+.answer {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.answer.correct {
+  background-color: green;
+  color: white;
+}
+
+.answer.incorrect {
+  background-color: red;
+  color: white;
+}
+
+.answer.default {
+  background-color: white;
+}
+
+.answer:hover {
+  opacity: 0.8;
+}

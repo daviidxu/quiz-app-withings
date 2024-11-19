@@ -1,0 +1,2 @@
+- Typescript
+- ENV variable
